@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "SF Pro";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYREGULAR.OTF") format("truetype");
+}
+
+.home-page-nav-bar-root {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    text-align: center;
+    font-family: "SF Pro";
+    align-items: center;
+}
+
+.home-page-nav-break-mobile-view {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-page-nav-bar-brand {
+    justify-content: center;
+    text-align: center;
+    padding-left: 3%;
+}
+
+.home-page-nav-bar-link-menu {
+    display: flex;
+    flex-direction: row;
+    /*margin-left: 15%;*/
+    white-space: nowrap;
+    padding-left: 10%;
+    flex: 1;
+}
+
+.home-page-nav-bar-right-part {
+    display: flex;
+    flex-direction: row;
+    /*margin-left: 45%;*/
+    align-items: center;
+    white-space: nowrap;
+    justify-content: right;
+    padding-right: 3%;
+    flex: 6;
+}
+
+.home-page-nav-bar-link {
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 45px;
+    color: black;
+}
+
+.home-page-nav-bar-link:hover {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+.home-page-nav-bar-email {
+    height: 19px;
+    width: 19px;
+    margin-right: 5px;
+}
+
+.home-page-nav-bar-ellipse {
+    height: 5px;
+    width: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.home-page-nav-bar-telephone {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.home-page-nav-bar-email-address {
+    text-decoration: underline;
+}
+
+@media all and (max-width: 900px) {
+    .home-page-nav-bar-root {
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    .home-page-nav-bar-email-address {
+        display: none;
+    }
+
+    .home-page-nav-bar-telephone-number {
+        display: none;
+    }
+
+    .home-page-nav-bar-brand {
+        height: 66px;
+        border-bottom: 1px solid #949393;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        width: 100%;
+    }
+
+    .home-page-nav-bar-link-menu {
+        padding-left: 5%;
+    }
+
+    .home-page-nav-break-mobile-view {
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #949393;
+    }
+
+    .home-page-nav-bar-ellipse {
+        display: none;
+    }
+
+    .home-page-nav-bar-email {
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "SF Pro";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYREGULAR.OTF") format("truetype");
+}
+
+@font-face {
+    font-family: "SF Pro BOLD";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYBOLD.OTF") format("truetype");
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 90px;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+.HomeImageWithDescription-component-item {
+    display: flex;
+    flex: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    /*border: 1px solid red;*/
+}
+
+.HomeImageWithDescription-right-align {
+    justify-content: right;
+}
+
+.header-text {
+    font-family: "SF Pro BOLD";
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media all and (max-width: 900px) {
+    .flex-container {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%;
+    }
+    .home-image-with-description-component-image-item {
+        flex: 100%;
+        order: 2;
+    }
+
+    .home-image-with-description-container {
+        flex-wrap: wrap;
+    }
+
+    .middle-div {
+        display: none;
+    }
+
+    .HomeImageWithDescription-component-item {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}

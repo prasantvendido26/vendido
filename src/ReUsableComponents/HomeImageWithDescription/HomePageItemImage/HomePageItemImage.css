@@ -1,0 +1,11 @@
+.HomePageItemImageComponent-image-left-align-direction {
+    justify-content: left;
+}
+
+.HomePageItemImageComponent-image-right-align-direction {
+    justify-content: right;
+}
+
+.HomePageItemImage-width {
+    width: 100%;
+}

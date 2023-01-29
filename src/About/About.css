@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "SF Pro";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYREGULAR.OTF") format("truetype");
+}
+
+@font-face {
+    font-family: "SF Pro Bold";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYBOLD.OTF") format("truetype");
+}
+
+.text-color-about-page {
+    color: #34BC87;
+}
+
+.about-page-image {
+    width: 100%;
+}
+
+.about-page-division {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-page-division-last {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-page-green-box-heading {
+    color: white;
+    font-family: "SF Pro Bold";
+    font-size: 50px;
+}
+
+.about-page-text-under-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-page-text-under-image-left {
+    margin-left: 6%;
+    margin-right: 6%;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "SF Pro Bold";
+}
+
+.about-page-text-under-image-right {
+    margin-left: 6%;
+    margin-right: 6%;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "SF Pro";
+}
+
+.about-page-green-box-text {
+    display: flex;
+    flex-direction: row;
+    background-color: #0F5156;
+    justify-content: center;
+    align-items: end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-page-green-box-heading-text {
+    font-family: "SF Pro Bold";
+    font-size: 50px;
+    font-weight: 700;
+    color: #F1C704;
+    flex: .2;
+}
+
+.about-page-green-box-description-text {
+    font-family: "SF Pro";
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+    flex: .4;
+}
+
+.about-page-green-box-text-root {
+    display: flex;
+    flex-direction: column;
+    background-color: #0F5156;
+    padding: 4%
+}
+
+.about-page-green-box-align-right-text {
+    text-align: right;
+}
+
+.about-page-green-box-empty {
+    flex: .4;
+}
+
+.about-page-green-box-text-right {
+    text-align: right;
+}
+
+.about-page-intro {
+    font-family: "SF Pro Bold";
+    font-size: 32px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about-page-member-info-root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.about-page-member-picture {
+    margin-bottom: 25px;
+}
+
+.about-page-member-name {
+    font-size: 25px;
+    font-family: "SF Pro";
+    margin-bottom: 10px;
+}
+
+.about-page-member-title {
+    font-size: 15px;
+    font-family: "SF Pro";
+}
+
+@media all and (max-width: 600px) {
+    .about-page-text-under-image {
+        flex-direction: column;
+    }
+
+    .about-page-text-under-image-left {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-page-green-box-text {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .about-page-green-box-heading-text {
+        order: 1;
+    }
+
+    .about-page-green-box-description-text {
+        order: 2;
+    }
+
+    .about-page-member-info-root {
+        flex-direction: column;
+    }
+
+    .about-page-green-box-text-right {
+        text-align: left;
+    }
+
+    .about-page-green-box-align-right-text {
+        text-align: left !important;
+    }
+
+    .last-text-about-page {
+        text-align: left;
+    }
+
+    .about-page-intro {
+        text-align: center;
+    }
+
+    .about-page-member-name {
+        text-align: center;
+    }
+
+    .about-page-member-title {
+        text-align: center;
+    }
+}

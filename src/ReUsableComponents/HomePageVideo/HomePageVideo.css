@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "SF Pro";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYREGULAR.OTF") format("truetype");
+}
+
+@font-face {
+    font-family: "SF Pro BOLD";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYBOLD.OTF") format("truetype");
+}
+
+.home-page-video {
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    font-family: "SF Pro";
+    justify-content: center;
+    text-align: center;
+    background-image: url("./HomePageWithVideo.png");
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
+
+.home-page-video-heading-text {
+    margin-bottom: 40px;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: "SF Pro BOLD";
+}
+
+.home-page-video-tag-text {
+    font-size: 40px;
+    font-weight: 50;
+    color: white;
+}
+
+.home-page-video-white-text {
+    color: white;
+}
+
+.home-page-video-yellow-text {
+    color: #F1C704;
+}
+
+@media all and (max-width: 900px) {
+
+}

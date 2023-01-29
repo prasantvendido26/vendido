@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "SF Pro";   /*Can be any text*/
+  font-style: normal;
+  src: local("SFPRORegular"),
+  url("./SFPRODISPLAYREGULAR.OTF") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Bold";   /*Can be any text*/
+  font-style: normal;
+  src: local("SFPRORegular"),
+  url("./SFPRODISPLAYBOLD.OTF") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: 'SF Pro';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

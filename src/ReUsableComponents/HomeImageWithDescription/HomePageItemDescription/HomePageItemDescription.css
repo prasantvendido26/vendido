@@ -1,0 +1,47 @@
+.header-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    order: 1;
+    margin-bottom: 35px;
+}
+
+.description-text {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    order: 2;
+}
+
+.home-page-description-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-align-text-home-page-item-description {
+    text-align: left;
+}
+
+.right-align-text-home-page-item-description {
+    text-align: right;
+}
+
+.home-page-item-with-description-green {
+    color: #34BC87;
+}
+
+@media all and (max-width: 900px) {
+    .right-align-text-home-page-item-description {
+        text-align: left;
+    }
+
+    .description-text {
+        margin-bottom: 25px;
+    }
+
+    .home-page-description-container {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "SF Pro";   /*Can be any text*/
+    font-style: normal;
+    src: local("SFPRORegular"),
+    url("./SFPRODISPLAYREGULAR.OTF") format("truetype");
+}
+
+.footer-parent-element {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "SF Pro";
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.footer-link-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-link {
+    text-decoration: underline;
+    font-size: 16px;
+    color: black;
+}
+
+.footer-link:hover {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
