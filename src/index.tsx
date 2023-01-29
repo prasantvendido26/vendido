@@ -19,6 +19,7 @@ root.render(
          <Routes>
              {/*<Route path="/" element={<Home />} />*/}
              {/*<Route path="/about" element={<About />} />*/}
+             {/*sdfsdf*/}
          </Routes>
          <Footer />
      </BrowserRouter>
