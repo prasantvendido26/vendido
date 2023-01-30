@@ -45,6 +45,7 @@
     justify-content: right;
     padding-right: 3%;
     flex: 6;
+    color: black;
 }
 
 .home-page-nav-bar-link {
@@ -80,8 +81,12 @@
 
 .home-page-nav-bar-email-address {
     text-decoration: underline;
+    color: black;
 }
 
+a:-webkit-any-link {
+    color: black;
+}
 @media all and (max-width: 900px) {
     .home-page-nav-bar-root {
         flex-direction: column;
@@ -94,6 +99,7 @@
 
     .home-page-nav-bar-telephone-number {
         display: none;
+        color: black;
     }
 
     .home-page-nav-bar-brand {
