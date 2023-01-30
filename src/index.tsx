@@ -15,11 +15,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
      <BrowserRouter basename="/">
-         {/*<Nav />*/}
+         <Nav />
          <Routes>
-             {/*<Route path="/" element={<Home />} />*/}
-             {/*<Route path="/about" element={<About />} />*/}
-             {/*sdfsdf*/}
+             <Route path="/" element={<Home />} />
+             <Route path="/about" element={<About />} />
          </Routes>
          <Footer />
      </BrowserRouter>
