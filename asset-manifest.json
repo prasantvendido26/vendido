@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vendido/static/css/main.c320498d.css",
-    "main.js": "/vendido/static/js/main.b70eb8a0.js",
+    "main.css": "/vendido/static/css/main.b8a08da5.css",
+    "main.js": "/vendido/static/js/main.c0e2e64c.js",
     "static/js/787.9879227f.chunk.js": "/vendido/static/js/787.9879227f.chunk.js",
     "static/media/AboutPageImage 1.png": "/vendido/static/media/AboutPageImage 1.f8c80f0fa1b24d9166b6.png",
     "static/media/HomePageWithVideo.png": "/vendido/static/media/HomePageWithVideo.57160c83b7667441f450.png",
@@ -16,12 +16,12 @@
     "static/media/jim.png": "/vendido/static/media/jim.abc71125a46faa00a6e4.png",
     "static/media/damien.jpg": "/vendido/static/media/damien.9730ddd0366122b22741.jpg",
     "index.html": "/vendido/index.html",
-    "main.c320498d.css.map": "/vendido/static/css/main.c320498d.css.map",
-    "main.b70eb8a0.js.map": "/vendido/static/js/main.b70eb8a0.js.map",
+    "main.b8a08da5.css.map": "/vendido/static/css/main.b8a08da5.css.map",
+    "main.c0e2e64c.js.map": "/vendido/static/js/main.c0e2e64c.js.map",
     "787.9879227f.chunk.js.map": "/vendido/static/js/787.9879227f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c320498d.css",
-    "static/js/main.b70eb8a0.js"
+    "static/css/main.b8a08da5.css",
+    "static/js/main.c0e2e64c.js"
   ]
 }
