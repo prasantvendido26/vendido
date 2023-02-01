@@ -36,3 +36,9 @@
     border-bottom: 1px dotted #000;
     text-decoration: none;
 }
+
+@media all and (max-width: 600px) {
+    .footer-heading {
+        font-size: 16px;
+    }
+}

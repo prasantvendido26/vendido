@@ -38,10 +38,15 @@
 
     .description-text {
         margin-bottom: 25px;
+        font-size: 16px;
     }
 
     .home-page-description-container {
         padding-left: 7%;
         padding-right: 7%;
+    }
+
+    .header-text {
+        font-size: 32px;
     }
 }

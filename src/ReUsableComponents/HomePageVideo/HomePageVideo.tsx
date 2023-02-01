@@ -6,7 +6,7 @@ class HomePageVideo extends React.Component {
         return (
             <div className="home-page-video">
                 <div className="home-page-video-heading-text"><span className="home-page-video-white-text">real estate without the</span><span className="home-page-video-yellow-text"> BS.</span></div>
-                <div className="home-page-video-tag-text">less work. more property.</div>
+                <div className="home-page-video-tag-text">less guess work. more property.</div>
             </div>
         );
     }
