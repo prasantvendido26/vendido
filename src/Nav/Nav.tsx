@@ -18,10 +18,10 @@ class Nav extends React.Component<any, any> {
                         <Link to="/about" className="home-page-nav-bar-link">About us</Link>
                     </div>
                     <div className="home-page-nav-bar-right-part">
-                        <img className="home-page-nav-bar-email" src={email} />
+                        <a href="mailto:marketing@vendidollc.com"><img className="home-page-nav-bar-email" src={email} /></a>
                         <a href="mailto:marketing@vendidollc.com" className="home-page-nav-bar-email-address">marketing@vendidollc.com</a>
                         <img className="home-page-nav-bar-ellipse" src={ellipse} />
-                        <img className="home-page-nav-bar-telephone" src={telephone} />
+                        <a href="tel:18888363436"><img className="home-page-nav-bar-telephone" src={telephone} /></a>
                         <a href="tel:18888363436" className="home-page-nav-bar-telephone-number">+1-888-VENDIDO</a>
                     </div>
                 </div>

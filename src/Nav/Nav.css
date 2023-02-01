@@ -90,7 +90,7 @@ a:-webkit-any-link {
 @media all and (max-width: 900px) {
     .home-page-nav-bar-root {
         flex-direction: column;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .home-page-nav-bar-email-address {
@@ -103,11 +103,8 @@ a:-webkit-any-link {
     }
 
     .home-page-nav-bar-brand {
-        height: 66px;
-        border-bottom: 1px solid #949393;
         padding-top: 22px;
         padding-bottom: 22px;
-        width: 100%;
     }
 
     .home-page-nav-bar-link-menu {
@@ -116,10 +113,10 @@ a:-webkit-any-link {
 
     .home-page-nav-break-mobile-view {
         height: 60px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
         padding-bottom: 15px;
-        border-bottom: 1px solid #949393;
+        padding-top: 15px;
+        border-top: 1px solid #949393;
     }
 
     .home-page-nav-bar-ellipse {

@@ -68,7 +68,6 @@
     background-color: #0F5156;
     justify-content: center;
     align-items: end;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -149,8 +148,12 @@
     }
 
     .about-page-text-under-image-left {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 20px;
+    }
+
+    .about-page-text-under-image-right {
+        font-size: 24px;
     }
 
     .about-page-green-box-text {
@@ -160,10 +163,13 @@
 
     .about-page-green-box-heading-text {
         order: 1;
+        font-size: 32px;
     }
 
     .about-page-green-box-description-text {
         order: 2;
+        font-size: 16px;
+        padding-top: 30px;
     }
 
     .about-page-member-info-root {
@@ -188,9 +194,19 @@
 
     .about-page-member-name {
         text-align: center;
+        /*font-size: 16px;*/
     }
 
     .about-page-member-title {
         text-align: center;
+    }
+
+    .about-page-root {
+        border-top: 1px solid #949393;
+    }
+
+    .about-page-green-box-heading {
+        font-size: 32px;
+        margin-bottom: 30px;
     }
 }

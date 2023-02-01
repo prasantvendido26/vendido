@@ -46,5 +46,17 @@
 }
 
 @media all and (max-width: 900px) {
+    .home-page-video-heading-text {
+        font-size: 42px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 
+    .home-page-video-tag-text {
+        font-size: 24px;
+    }
+
+    .home-page-video {
+        margin-bottom: 40px;
+    }
 }

@@ -11,7 +11,7 @@ class About extends React.Component {
         const headingText2 = <span><span className="text-color-about-page">one-stop shop</span> for all real estate stakeholders</span>;
         const descriptionText2 = <span>Our vision is to empower all real estate stakeholders with enough knowledge and data for them to make informed decisions saving time, money and effort. <br /><br />Our goal is to become a one-stop online destination for all real estate stakeholders to carry out transactions being fully informed.</span>;
         return(
-            <div>
+            <div className="about-page-root">
                 <AboutPageText headingText={headingText1} descriptionText={descriptionText1} />
                 <img className="about-page-image" src={require("./AboutPageImage 1.png")} />
                 <hr className="about-page-division" />
