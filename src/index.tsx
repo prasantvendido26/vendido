@@ -18,6 +18,7 @@ root.render(
          <Nav />
          <Routes>
              <Route path="/" element={<Home />} />
+             <Route path="/vendido" element={<Navigate to="/" />} />
              <Route path="/about" element={<About />} />
          </Routes>
          <Footer />
